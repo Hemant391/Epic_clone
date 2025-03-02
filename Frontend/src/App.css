@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f0f0;
+  
+}
+.selecttab{
+  border: 0px;
+  /* border-bottom: 5px solid black; */
+  border-top: 5px solid black;
+  /* border-left: 5px solid black; */
+  background-color: gray;
+}
+
+.outerselect{
+  position: relative;
+}
+
+.topbarheight{
+  height: 25px;
+}
+.sideheight{
+  width: 200px;
+  height: calc(100% - 25px) !important;
+ 
+}
+.mainsession{
+  width: calc(100% - 200px);
+  height: calc(100% - 25px);
+  
+  width: 100%;
+  height: 100%;
+}
